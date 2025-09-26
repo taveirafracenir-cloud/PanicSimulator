@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panic Simulator"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título do Alerta"
+        android:textColor="#fff"
+        android:textColorHint="#aaa"
+        android:backgroundTint="#fff"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/editMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="O que é o alerta?"
+        android:textColor="#fff"
+        android:textColorHint="#aaa"
+        android:backgroundTint="#fff"
+        android:padding="12dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:id="@+id/btnStartAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Começar" />
+
+</LinearLayout>
