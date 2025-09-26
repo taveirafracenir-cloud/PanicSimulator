@@ -1,4 +1,4 @@
-package com.example.panicsimulator
+package com.panicsimulator
 
 import android.content.Context
 import android.content.Intent
